@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+.header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.05);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    position: absolute;
+}
+    /*LOGO */
+    .logo img {
+        float: left;
+        margin-top: 2.5px;
+        width: 75px;
+        padding-left: 40px;
+    }
+
+    /* UPPER RIGHT */
+    .upper-right {
+        float: right;
+        padding: 0 35px;
+    }
+
+    .upper-right a{
+        line-height: 65px;
+        padding: 0 25px;
+        color: white;
+        display: block;
+        transition: all 0.5s;
+        float: left;
+        text-decoration: none;
+    }
+
+    .upper-right a:hover {
+        background-color: rgba(190, 190, 190, 0.8);
+    }
+
+    .menu-icon {
+        color: white;
+        float: right;
+        font-size: 25px;
+        padding: 21px 0;
+        display: none;
+    }
+
+/* HEADER STOP */
+
+/* MAINMENU */
+.Mainmenu {
+    padding: 180px 0 100px 0;
+    background-image: url(Foto/background.jpg);
+    background-size: cover;
+    color:white;
+    
+}
+
+.Mainmenu h1 {
+    padding: 0 40px;
+    font-size: 55px;
+    -webkit-animation: fadein 8s;
+}
+
+    @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+
+/* MAINMENU STOP */
+
+/* PROFILE */
+.profile {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    background-color: #f7f7f7;
+}
+
+.profile img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border: 6px solid rgb(31, 31, 31);
+    border-radius: 15px;
+}
+
+.profile h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.profile p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.profile h4 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 1.5px;
+    margin-top: 10px;
+}
+
+/* PROFILE STOP */
+
+/* MULTIMEDIA */
+.container {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    background-color: beige;
+}    
+
+.container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    padding-top: 25px;
+}
+
+.images {
+    position: relative;
+    text-align: center;
+}
+
+.images-1 img {
+    width: 25%;
+}
+
+.images p {
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.Video {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.Video p {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.Video button {
+    border: 0.5px black solid;
+    border-radius: 15px;
+    background-color: #5dca88;
+    width: 15%;
+    height: 45px;
+    cursor: pointer;
+}
+
+.Video button a {
+    font-size: 20px;
+    z-index: 10;
+    display: inline-block;
+    position: relative;
+    padding: 2em;     
+    margin: -2em; 
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.Video button:hover {
+    background-color: #1a7940;
+}
+
+.Video button a:hover {
+    color: azure;
+}
+/* MULTIMEDIA STOP */
+
+/* BLESSING */
+.blessings {
+    padding: 180px 0 100px 0;
+    background-image: url(Foto/background1.jpg);
+    background-size: cover;
+    color:dimgray;
+    font-size: 35px;
+    text-align: center;
+}   
+/* BLESSING STOP */

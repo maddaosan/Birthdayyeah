@@ -1,0 +1,11 @@
+/*Smartphone*/
+@media all and (max-width: 670) {
+    .Mainmenu h1 {
+        font-size: 35px;
+        line-height: 40px
+    }
+
+    .images-1 img {
+        width: 40%;
+    }
+}    
